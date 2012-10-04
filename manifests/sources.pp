@@ -2,7 +2,7 @@
 # add an apt source
 
 define apt::sources(
-  host = false,
+  $host = false,
 ) {
 
   if ! $host {
